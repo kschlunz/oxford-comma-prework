@@ -8,11 +8,16 @@ def oxford_comma(array)
   elsif array.length == 3
     new_array = []
 
-    last = array.slice(-1,1)
-    new_array.push(last)
-    last_word = new_array.join(", and")
-    last_word
+      last = array.slice(-1,1)
+      new_array.push(last)
+      last_word = ", and #{last.join("")}"
+      last_word
 
+      first_words = array.first(2)
+      first_words_again = first_words.join(", ")
+
+      final = "#{first_words_again} #{last_word}"
+      final 
 
   end
 
