@@ -7,7 +7,7 @@ def oxford_comma(array)
 
   elsif array.length == 3
     new_array = []
-    
+
     last = array.slice(-1,1)
     new_array.push(last)
     last_word = new_array.join(", and")
