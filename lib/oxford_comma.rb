@@ -16,8 +16,8 @@ def oxford_comma(array)
       first_words = array.first(2)
       first_words_again = first_words.join(", ")
 
-      final = "#{first_words_again} #{last_word}"
-      final 
+      final = "#{first_words_again}#{last_word}"
+      final
 
   end
 
