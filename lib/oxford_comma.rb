@@ -7,9 +7,11 @@ def oxford_comma(array)
 
   elsif array.length == 3
     new_array = []
+    
     last = array.slice(-1,1)
     new_array.push(last)
-    new_array.join(",")
+    new_array.join(", and")
+    
 
   end
 
