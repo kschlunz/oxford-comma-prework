@@ -21,6 +21,7 @@ def oxford_comma(array)
 
     else
       new_array = []
+      second_array = []
 
       last = array.slice(-1,1)
       new_array.push(last)
@@ -28,10 +29,11 @@ def oxford_comma(array)
       last_word
 
       first_words = array.shift()
+      second_array.push(first_words)
       first_words_again = first_words.join(", ")
 
       final = "#{first_words_again} #{last_word}"
-      final 
+      final
 
   end
 
