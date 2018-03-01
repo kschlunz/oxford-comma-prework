@@ -28,13 +28,12 @@ def oxford_comma(array)
       last_word = ", and #{last.join("")}"
       last_word
 
-      first_words = array.shift()
-      second_array.push(first_words)
-      first_words_again = first_words.join(", ")
+      first_words = array.first array.size - 1
+      almost_there = second_array.push(first_words)
+      so_close = almost_there.join(", ")
 
-      final = "#{first_words_again} #{last_word}"
-      final
-
+       final = "#{so_close} #{last_word}"
+       final
   end
 
 
