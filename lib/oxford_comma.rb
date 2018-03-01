@@ -4,6 +4,13 @@ def oxford_comma(array)
 
   elsif array.length == 2
       array.join(" and ")
+
+  elsif array.length == 3
+    new_array = []
+    last = array.splice(-1,1)
+    new_array.push(last)
+    new_array.join(",")
+
   end
 
 
