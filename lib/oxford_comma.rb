@@ -11,7 +11,7 @@ def oxford_comma(array)
     last = array.slice(-1,1)
     new_array.push(last)
     new_array.join(", and")
-    
+
 
   end
 
