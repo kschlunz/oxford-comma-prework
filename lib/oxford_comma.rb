@@ -32,7 +32,7 @@ def oxford_comma(array)
       almost_there = second_array.push(first_words)
       so_close = almost_there.join(", ")
 
-       final = "#{so_close} #{last_word}"
+       final = "#{so_close}#{last_word}"
        final
   end
 
